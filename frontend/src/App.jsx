@@ -1,6 +1,6 @@
 import React, { useEffect, useRef, useState } from "react";
 import { TbMessageChatbot } from "react-icons/tb";
-import { FaArrowDown } from "react-icons/fa";
+
 import ChatForm from "./components/ChatForm";
 import ChatMessage from "./components/ChatMessage";
 
@@ -129,9 +129,7 @@ const App = () => {
             />
             <h2 className="logo-text">Chatbot</h2>
           </div>
-          <button>
-            <FaArrowDown />
-          </button>
+         
         </div>
 
         {/* body  */}
